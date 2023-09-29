@@ -28,7 +28,7 @@
           cols="12"
       >
         <ChapterItem
-          :chapter="chapter"
+          :nota="chapter"
         />
       </v-col>
     </v-row>
@@ -62,6 +62,10 @@ const getList = async() =>{
 
 }
 
+/**
+ * Revisa los cambios del ingresados
+ * en el buscador
+ */
 watch(inputChapter, () =>{
   if(inputChapter.value == ''){
     getList();
