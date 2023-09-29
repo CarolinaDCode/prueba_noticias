@@ -15,7 +15,7 @@
       >
         <v-card>
           <v-card-title>
-            Resultados encontrados : {{ resultFound }}
+            Hemos encontrado {{ resultFound }} resultados para: {{ inputChapter }}
           </v-card-title>
         </v-card>
       </v-col>
